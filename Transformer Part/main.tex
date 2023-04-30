@@ -1,0 +1,31 @@
+%! Author = smf
+%! Date = 4/30/23
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\author{Mingfei Shi}
+\title{Transformer Part}
+\date{\today}
+
+
+% Document
+\begin{document}
+    \maketitle
+    \newpage
+\section{What are the Transformer and attention mechanisms}\label{sec:what-are-the-transformer-and-attention-mechanisms}
+
+\paragraph{Self-attention} Relate different positions of a single sequence to compute a representation of the same sequence.
+    Each element becomes query, key, and value from the input embeddings by multiplying by a weight matrix.
+
+    The goal is to learn how to pick relevant information from input data.
+    Then they create three vectors from each of the encoder's input values(query, key, value), and calculate a score for how much
+    to focus on each part of the input when we encode words at specific positions.
+
+
+
+\end{document}
